@@ -1,0 +1,40 @@
+
+.formComponent{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+// .alert{
+//     display: flex;
+//     position: relative;
+//     left: 229px;
+// }
+
+.inputField{
+    width: 200px;
+    padding: 5px 4px;
+}
+.warning{
+    color: red;
+    
+}
+button{
+    display: flex;
+    align-self: center;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.btns{
+    margin-top: 20px;
+
+}
